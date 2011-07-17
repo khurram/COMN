@@ -1,11 +1,10 @@
 = Usage instructions:
 There are 3 versions with increasing levels of data reliability and throughput.
-
 == 1. Compile both the sender and receiver files: 
     $ javac Receiver3.java
     $ javac Sender3.java
 
-= 2. Run the receiver side:
+== 2. Run the receiver side:
 
     $ java Receiver3 <Port> <Filename>
     
@@ -14,7 +13,7 @@ Where <Port> is the port number used for receiving from the sender and <Filename
 An example would be:    
     $ java Receiver3 54321 receivedfile.jpg
 
-= 3. Run the sender side:
+== 3. Run the sender side:
 
     $ java Sender3 <IPaddress> <Port> <Filename>
 
