@@ -1,11 +1,11 @@
 = Usage instructions:
 
-== 1. First compile one of the 3 receiver and sender files to their corresponding class files. 
+== 1. Compile both the sender and receiver files: 
 For example: 
     $ javac Receiver3.java
     $ javac Sender3.java
 
-== Run the receiver side:
+== 2. Run the receiver side:
 
     $ java Receiver3 <Port> <Filename>
     
@@ -14,7 +14,7 @@ Where <Port> is the port number used for receiving from the sender and <Filename
 An example would be:    
     $ java Receiver3 54321 receivedfile.jpg
 
-== Run the sender side:
+== 3. Run the sender side:
 
     $ java Sender3 <IPaddress> <Port> <Filename>
 
