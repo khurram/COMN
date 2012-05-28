@@ -2,9 +2,9 @@ Usage instructions:
 ===================
 There are 3 versions of the Sender and Receiver, each with increasing levels of data reliability and throughput.
 
-Sender and Receiver 1 has completely unreliable data transfer.  
+*Sender and Receiver 1 has completely unreliable data transfer.  
 Sender and Receiver 2 uses Stop and Wait.  
-Sender and Receiver 3 uses Go-Back-N.
+Sender and Receiver 3 uses Go-Back-N.*
 
 Run the receiver side:
 -------------------------
