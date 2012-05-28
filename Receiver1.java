@@ -14,7 +14,7 @@ public class Receiver1 {
     }
 
     public static void receiveAndCreate(int port, String fileName) throws IOException {
-		// Create the socket, set the address and create the file to be sent
+        // Create the socket, set the address and create the file to be sent
         DatagramSocket socket = new DatagramSocket(port);
         InetAddress address;
         File file = new File(fileName);
