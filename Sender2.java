@@ -111,6 +111,7 @@ public class Sender2 {
                 }
             }
         }
+
         socket.close();
         System.out.println("File " + fileName + " has been sent");
 

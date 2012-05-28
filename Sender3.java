@@ -216,7 +216,7 @@ public class Sender3 {
                 }
             }
         }
-        
+
         socket.close();
         System.out.println("File " + fileName + " has been sent");
 
